@@ -1,6 +1,6 @@
 :root.theme-light {
   --page-background: #fff1f7;
-  --background-image: url('../images/cover-image-light.png');
+  --background-image: url("../images/cover-image-light.png");
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --heading-color: #ffc2e6;
@@ -14,7 +14,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --page-background: #fff1f7;
-    --background-image: url('../images/cover-image-light.png');
+    --background-image: url("../images/cover-image-light.png");
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --heading-color: #ffc2e6;
