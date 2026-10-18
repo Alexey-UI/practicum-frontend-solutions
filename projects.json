@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "ono-tebe-nado-ad",
+      "title": "Оно тебе надо",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/83070f77-683a-4019-90ca-ba83b1441663/sprints/1071815/topics/968f69f8-8731-420c-a2f3-188b046f32cc/lessons/46c56da6-a5bf-429d-9708-bb697970b580/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/ono-tebe-nado-ad",
+      "destination": "Alexey-UI/ono-tebe-nado-ad",
+      "commit": "1814cbfe2f9d1fc20334efe2662a25209536b26d",
+      "checks": [
+        { "program": "node", "args": ["--import", "tsx", "../../scripts/check-ono.ts", "."] }
+      ]
+    }
+  ]
+}
