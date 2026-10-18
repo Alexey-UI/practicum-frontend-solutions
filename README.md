@@ -1,20 +1,15 @@
 # Эталоны проектных работ Практикума
 
-Проверенные решения курса «Ассоциированные программы: Фронтенд-разработка».
-Код каждой работы находится в отдельной папке `projects/`. Манифест
-`projects.json` закрепляет точную версию для программы автоматизации.
+Проверенные решения курса фронтенд-разработки. Код лежит в `projects/`,
+а `projects.json` закрепляет полный SHA для программы автоматизации.
 
 | Работа | Код | Официальная проверка |
 | --- | --- | --- |
-| Оно тебе надо | [projects/ono-tebe-nado-ad](projects/ono-tebe-nado-ad/) | [GitHub Actions: успешно](https://github.com/Alexey-UI/ono-tebe-nado-ad/actions/runs/39151957881) |
+| Оно тебе надо | [projects/ono-tebe-nado-ad](projects/ono-tebe-nado-ad/) | [Успешно](https://github.com/Alexey-UI/ono-tebe-nado-ad/actions/runs/39151957881) |
+| Посмотри в окно | [projects/posmotri-v-okno-ad](projects/posmotri-v-okno-ad/) | [Успешно](https://github.com/Alexey-UI/posmotri-v-okno-ad/actions/runs/39161336683) |
+| Сложно сосредоточиться | [projects/slozhno-sosredotochitsya-ad](projects/slozhno-sosredotochitsya-ad/) | [Успешно](https://github.com/Alexey-UI/slozhno-sosredotochitsya-ad/actions/runs/39166562329) |
 
-Проверенная версия репозитория сдачи:
-`597b40589dfcb1ffe5199014b7329cd3c7881c50`.
-
-Для сдачи Практикум создаёт отдельный репозиторий в привязанном GitHub, например
-`Alexey-UI/ono-tebe-nado-ad`. Автоматизация переносит в него файлы эталона,
-сохраняя `.git` и оригинальные настройки `.github/workflows/`.
-
-Успешный GitHub Action подтверждает код работы. Прохождение урока в Практикуме
-проверяется отдельно после отправки через интерфейс платформы.
-Проверенные проектные работы курса frontend и манифесты для автоматизации Практикума
+Практикум создаёт отдельный репозиторий сдачи в привязанном GitHub.
+Автоматизация переносит в него файлы эталона, сохраняя `.git` и оригинальный
+workflow `.github/workflows/`. Прохождение урока проверяется отдельно после
+отправки через интерфейс платформы.
