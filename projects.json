@@ -40,6 +40,26 @@
           ]
         }
       ]
+    },
+    {
+      "id": "slozhno-sosredotochitsya-ad",
+      "title": "Сложно сосредоточиться",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/0354e945-8c6c-49d7-8327-8c6846fdf812/sprints/1071818/topics/1df3985f-02d9-4b3b-9392-5bdf609a79ac/lessons/ccb598ef-d650-474f-b32a-085716b6ab41/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/slozhno-sosredotochitsya-ad",
+      "destination": "Alexey-UI/slozhno-sosredotochitsya-ad",
+      "commit": "93f53994285c499e7d4145184497d90640cdd173",
+      "checks": [
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-focus.ts",
+            "."
+          ]
+        }
+      ]
     }
   ]
 }
