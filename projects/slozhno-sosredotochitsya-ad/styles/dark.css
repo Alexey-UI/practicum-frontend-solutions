@@ -1,0 +1,12 @@
+:root.theme-dark {
+  --page-background: #000028;
+  --background-image: url('../images/cover-image-dark.png');
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --heading-color: #db00ff;
+  --section-heading-color: #ff0070;
+  --decor-text-color: #000028;
+  --menu-color: #ff0070;
+  --button-hover-color: rgb(255 0 112 / 0.4);
+  --rec-display: flex;
+}
