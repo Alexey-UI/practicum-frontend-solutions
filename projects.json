@@ -10,7 +10,35 @@
       "destination": "Alexey-UI/ono-tebe-nado-ad",
       "commit": "1814cbfe2f9d1fc20334efe2662a25209536b26d",
       "checks": [
-        { "program": "node", "args": ["--import", "tsx", "../../scripts/check-ono.ts", "."] }
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-ono.ts",
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "posmotri-v-okno-ad",
+      "title": "Посмотри в окно",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/728fcbac-d2e6-422d-a63f-fc82749f5e11/sprints/1071817/topics/da4ef788-54ae-4c82-9146-fb6041192ba2/lessons/2be3fb3a-b207-4f94-8169-ff00e519f15e/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/posmotri-v-okno-ad",
+      "destination": "Alexey-UI/posmotri-v-okno-ad",
+      "commit": "3bc7f1b06921a0e2bf1f482a2ad622f4f8bf32da",
+      "checks": [
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-window.ts",
+            "."
+          ]
+        }
       ]
     }
   ]
