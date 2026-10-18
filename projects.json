@@ -48,7 +48,7 @@
       "source": "Alexey-UI/practicum-frontend-solutions",
       "sourcePath": "projects/slozhno-sosredotochitsya-ad",
       "destination": "Alexey-UI/slozhno-sosredotochitsya-ad",
-      "commit": "93f53994285c499e7d4145184497d90640cdd173",
+      "commit": "eff38f6704426179542b0be587b7ab6abef46861",
       "checks": [
         {
           "program": "node",
