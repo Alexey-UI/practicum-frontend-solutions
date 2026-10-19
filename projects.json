@@ -60,6 +60,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zakrivayuschiy-teg-ad",
+      "title": "Закрывающий тег",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/730e2be8-6135-46b1-bf41-299576cb9022/sprints/1071820/topics/cfd74a0d-32a9-4c0d-a6a8-6fb7c6642830/lessons/901896a9-447a-4e65-a7bf-cbf552cbee0e/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/zakrivayuschiy-teg-ad",
+      "destination": "Alexey-UI/zakrivayuschiy-teg-ad",
+      "commit": "167891bf59414333d870cc24c712137941b2f38b",
+      "pages": true,
+      "checks": [
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-closing.ts",
+            "."
+          ]
+        }
+      ]
     }
   ]
 }
