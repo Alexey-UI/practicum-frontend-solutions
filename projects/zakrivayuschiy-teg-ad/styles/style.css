@@ -47,7 +47,7 @@
 .card__title {
   padding: 3px 10px;
   font-size: inherit;
-  font-weight: 700;
+  font-weight: 785;
   font-variation-settings: "wght" var(--heading-weight);
   line-height: 1.22;
 }
@@ -228,10 +228,8 @@
 .dialog__text {
   text-transform: uppercase;
 }
-.dialog__form {
-  grid-column: 1 / -1;
-}
 .dialog__button {
+  grid-column: 1 / -1;
   inline-size: 100%;
   text-transform: uppercase;
 }
