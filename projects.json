@@ -81,6 +81,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "to-do",
+      "title": "Сервис To-do",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/80dda619-7369-45fe-8f7a-6cb23436e873/sprints/1071825/topics/b996e231-eea5-40cd-b4aa-49c3add91449/lessons/4dd4ea5f-604f-4cde-bea4-0cc5e8ce408a/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/to-do",
+      "destination": "Alexey-UI/to-do",
+      "commit": "5adbb82b8c007ffcfd07d4948dd02889fbf72e89",
+      "review": "teacher",
+      "checks": [
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-todo.ts",
+            "."
+          ]
+        }
+      ]
     }
   ]
 }
