@@ -102,6 +102,47 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mesto-ad",
+      "title": "Mesto. Валидация форм и сборка кода",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/853e620e-05ac-4425-91d7-d9741599400a/sprints/1071827/topics/c6fe8b6e-9b25-4edc-9fe6-7ab8e52b3cd3/lessons/03fc27b3-17d6-4f36-8bc2-e20acaa9d2c0/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/mesto-ad",
+      "destination": "Alexey-UI/mesto-ad",
+      "commit": "01ce2fc5153642a964b54daab89f32d78a5a6619",
+      "review": "self",
+      "checks": [
+        {
+          "program": "npm",
+          "args": [
+            "ci",
+            "--ignore-scripts",
+            "--no-audit",
+            "--no-fund",
+            "--cache",
+            "/private/tmp/practicum-npm-cache",
+            "--fetch-retries=0",
+            "--fetch-timeout=30000"
+          ]
+        },
+        {
+          "program": "npm",
+          "args": [
+            "run",
+            "build"
+          ]
+        },
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-mesto.ts",
+            "."
+          ]
+        }
+      ]
     }
   ]
 }
