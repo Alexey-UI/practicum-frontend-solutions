@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.connection-button {
+  border: 1px solid currentColor;
+  background: transparent;
+  color: #fff;
+  padding: 8px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.connection-dialog {
+  box-sizing: border-box;
+  width: min(430px, calc(100% - 32px));
+  padding: 28px;
+  border: 0;
+  border-radius: 10px;
+  color: #000;
+  background: #fff;
+  font-family: Inter, Arial, sans-serif;
+}
+.connection-dialog::backdrop {
+  background: rgb(0 0 0 / 75%);
+}
+.connection-dialog h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+.connection-dialog p {
+  line-height: 1.5;
+}
+.connection-form {
+  display: grid;
+  gap: 16px;
+}
+.connection-form label {
+  display: grid;
+  gap: 6px;
+}
+.connection-form input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #777;
+  font: inherit;
+}
+.connection-form button {
+  padding: 12px;
+  border: 0;
+  background: #000;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+.connection-form button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.connection-error,
+.popup__request-error {
+  min-height: 1em;
+  margin: 8px 0;
+  color: #b00020;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.request-status {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+button:disabled {
+  cursor: default;
+}
