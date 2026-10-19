@@ -12,6 +12,8 @@
 | Закрывающий тег | [projects/zakrivayuschiy-teg-ad](projects/zakrivayuschiy-teg-ad/) | Принят Практикумом; [GitHub-тесты содержат несовместимый вызов Puppeteer](https://github.com/Alexey-UI/practicum-assistant/blob/main/docs/official-checker-compatibility.md) |
 | To-do | [projects/to-do](projects/to-do/) | Локальные проверки прошли; по курсу требуется ручная приёмка преподавателем. Сдача не отправлялась |
 
+| Mesto. Валидация и сборка | [projects/mesto-ad](projects/mesto-ad/) | Сборка Vite и локальные проверки прошли; этот этап курса предусматривает самопроверку |
+
 Практикум создаёт отдельный репозиторий сдачи в привязанном GitHub.
 Автоматизация переносит в него файлы эталона, сохраняя `.git` и оригинальный
 workflow `.github/workflows/`. Прохождение урока проверяется отдельно после
