@@ -143,6 +143,53 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mesto-api",
+      "title": "Mesto. Работа с сервером",
+      "lessonUrl": "https://practicum.yandex.ru/learn/ap-frontend-st/courses/f25debd4-d1db-4590-8123-fa1fdb488848/sprints/1080786/topics/b664b7f9-0346-4369-b27b-ced554abca3e/lessons/9317b7ec-f8d9-48d2-94f6-f041a74c2c44/",
+      "source": "Alexey-UI/practicum-frontend-solutions",
+      "sourcePath": "projects/mesto-api",
+      "destination": "Alexey-UI/mesto-ad",
+      "commit": "931ed48599fb2ddf8eaa308176866b4ee498a3a1",
+      "review": "teacher",
+      "verification": "mock-api",
+      "pages": true,
+      "deploy": "gh-pages",
+      "removeFiles": [
+        "src/scripts/cards.js"
+      ],
+      "checks": [
+        {
+          "program": "npm",
+          "args": [
+            "ci",
+            "--ignore-scripts",
+            "--no-audit",
+            "--no-fund",
+            "--cache",
+            "/private/tmp/practicum-npm-cache",
+            "--fetch-retries=0",
+            "--fetch-timeout=30000"
+          ]
+        },
+        {
+          "program": "npm",
+          "args": [
+            "run",
+            "build"
+          ]
+        },
+        {
+          "program": "node",
+          "args": [
+            "--import",
+            "tsx",
+            "../../scripts/check-mesto-api.ts",
+            "."
+          ]
+        }
+      ]
     }
   ]
 }
